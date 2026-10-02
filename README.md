@@ -1,6 +1,8 @@
 # Student API
 
-REST API for managing students built with Spring Boot and PostgreSQL.
+Student API is a backend REST API built with Java 17, Spring Boot, Spring Data JPA and PostgreSQL.
+
+The application supports student CRUD operations, DTO mapping, request validation, exception handling, and database persistence.
 
 ## Technologies
 
@@ -8,6 +10,9 @@ REST API for managing students built with Spring Boot and PostgreSQL.
 * Spring Boot
 * Spring Data JPA
 * PostgreSQL
+* REST API
+* DTO / Mapper
+* Exception Handling
 * Lombok
 * Validation
 * Maven
@@ -22,6 +27,9 @@ REST API for managing students built with Spring Boot and PostgreSQL.
 * Update student
 * Delete student
 * Count students
+* DTO mapping between entities and API responses
+* Request validation
+* Custom exception handling
 
 ## API Endpoints
 
